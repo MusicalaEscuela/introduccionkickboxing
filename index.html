@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guía de Kickboxing – Musicala</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAV
+  ══════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <img src="assets/logo.png" alt="Musicala" class="nav__logo" />
+      <ul class="nav__links">
+        <li><a href="#que-es">¿Qué es?</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#movimientos">Movimientos</a></li>
+        <li><a href="#combinaciones">Combos</a></li>
+        <li><a href="#antes">Antes</a></li>
+        <li><a href="#glosario">Glosario</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#que-es">¿Qué es?</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#movimientos">Movimientos</a>
+      <a href="#combinaciones">Combos</a>
+      <a href="#antes">Antes</a>
+      <a href="#glosario">Glosario</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HEADER / HERO
+  ══════════════════════════════════════════ -->
+  <header class="hero" id="inicio">
+    <div class="hero__bg-shapes" aria-hidden="true">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+      <div class="shape shape--3"></div>
+    </div>
+
+    <div class="hero__content">
+      <span class="hero__tag">SafeMode × Musicala</span>
+      <h1 class="hero__title">Guía rápida de<br /><em>Kickboxing</em></h1>
+      <p class="hero__sub">Muévete, activa tu energía y entiende los comandos básicos antes de la clase.</p>
+      <a href="#movimientos" class="btn btn--primary">Ver movimientos básicos ↓</a>
+    </div>
+
+    <div class="hero__chips" aria-hidden="true">
+      <span class="chip chip--float" style="--d:0s">Jab</span>
+      <span class="chip chip--float" style="--d:.4s">Cross</span>
+      <span class="chip chip--float" style="--d:.8s">Hook</span>
+      <span class="chip chip--float" style="--d:1.2s">Uppercut</span>
+      <span class="chip chip--float" style="--d:1.6s">Guardia</span>
+      <span class="chip chip--float" style="--d:2s">Respira 🌬️</span>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       INTRO FRESCA
+  ══════════════════════════════════════════ -->
+  <section class="intro">
+    <div class="container">
+      <p class="intro__text">
+        Esta guía está pensada para que llegues a la clase con más confianza, entiendas los movimientos principales y disfrutes la experiencia sin sentir que el profe está hablando en <strong>código secreto de combate</strong>. 🥊
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       QUÉ ES EL KICKBOXING
+  ══════════════════════════════════════════ -->
+  <section class="section" id="que-es">
+    <div class="container">
+      <div class="section__label">01</div>
+      <h2 class="section__title">¿Qué es el Kickboxing?</h2>
+      <div class="que-es__grid">
+        <div class="que-es__text">
+          <p>El <strong>Kickboxing</strong> es una práctica física que combina golpes de boxeo, patadas, desplazamientos y ejercicios de coordinación.</p>
+          <p>En nuestras clases virtuales lo usamos como una experiencia de <strong>activación corporal, bienestar y energía</strong>, adaptada para empresas y personas de diferentes niveles.</p>
+          <p>No necesitas experiencia previa. No necesitas guantes. Solo ganas si apareces. 💪</p>
+        </div>
+        <div class="que-es__visual">
+          <div class="icon-block">
+            <div class="icon-block__icon">🥊</div>
+            <div class="icon-block__line">Boxeo</div>
+          </div>
+          <div class="icon-block__plus">+</div>
+          <div class="icon-block">
+            <div class="icon-block__icon">🦵</div>
+            <div class="icon-block__line">Patadas</div>
+          </div>
+          <div class="icon-block__plus">+</div>
+          <div class="icon-block">
+            <div class="icon-block__icon">🧘</div>
+            <div class="icon-block__line">Bienestar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       BENEFICIOS
+  ══════════════════════════════════════════ -->
+  <section class="section section--tinted" id="beneficios">
+    <div class="container">
+      <div class="section__label">02</div>
+      <h2 class="section__title">Beneficios para equipos de trabajo</h2>
+      <p class="section__desc">Una clase bien aprovechada puede cambiar el tono del resto del día laboral.</p>
+      <div class="benefits__grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">⚡</div>
+          <h3>Activa el cuerpo</h3>
+          <p>Despierta músculos que llevan horas frente a la pantalla.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🧘‍♀️</div>
+          <h3>Reduce tensión y estrés</h3>
+          <p>El movimiento libera endorfinas. El cuerpo sabe lo que necesita.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🎯</div>
+          <h3>Mejora coordinación</h3>
+          <p>Cada combo entrena tu mente y tu cuerpo al mismo tiempo.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🔋</div>
+          <h3>Aumenta energía</h3>
+          <p>Sales con más pila de la que entraste. Garantizado.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🧠</div>
+          <h3>Fortalece concentración</h3>
+          <p>Seguir secuencias activa atención y foco mental.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🤝</div>
+          <h3>Bienestar grupal</h3>
+          <p>Una experiencia compartida que conecta al equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       MOVIMIENTOS BÁSICOS
+  ══════════════════════════════════════════ -->
+  <section class="section" id="movimientos">
+    <div class="container">
+      <div class="section__label">03</div>
+      <h2 class="section__title">Movimientos básicos</h2>
+      <p class="section__desc">Los nombres suenan complicados. No lo son. Aquí está la traducción al español humano.</p>
+      <div class="moves__grid">
+
+        <article class="move-card reveal" data-move="guardia">
+          <div class="move-card__badge">Base</div>
+          <div class="move-card__icon">🛡️</div>
+          <h3 class="move-card__name">Guardia</h3>
+          <p class="move-card__desc">Posición base. Manos arriba, codos cerca del cuerpo, rodillas suaves y mirada al frente.</p>
+          <div class="move-card__tip">💡 Piensa en protegerte sin tensarte.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="jab">
+          <div class="move-card__badge">Golpe</div>
+          <div class="move-card__icon">👊</div>
+          <h3 class="move-card__name">Jab</h3>
+          <p class="move-card__desc">Golpe recto con la mano delantera. Es rápido, ligero y sirve para marcar distancia.</p>
+          <div class="move-card__tip">💡 Sale y vuelve rápido a la guardia.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="cross">
+          <div class="move-card__badge">Golpe</div>
+          <div class="move-card__icon">🤜</div>
+          <h3 class="move-card__name">Cross</h3>
+          <p class="move-card__desc">Golpe recto con la mano trasera. Tiene más potencia y va acompañado de una pequeña rotación del cuerpo.</p>
+          <div class="move-card__tip">💡 No golpees solo con el brazo, acompaña con el torso.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="hook">
+          <div class="move-card__badge">Golpe</div>
+          <div class="move-card__icon">🥊</div>
+          <h3 class="move-card__name">Hook</h3>
+          <p class="move-card__desc">Golpe circular o gancho lateral. Se lanza a la altura del rostro o del cuerpo.</p>
+          <div class="move-card__tip">💡 Mantén el codo alineado y controla la fuerza.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="uppercut">
+          <div class="move-card__badge">Golpe</div>
+          <div class="move-card__icon">⬆️</div>
+          <h3 class="move-card__name">Uppercut</h3>
+          <p class="move-card__desc">Golpe ascendente de abajo hacia arriba.</p>
+          <div class="move-card__tip">💡 Flexiona un poco las piernas y sube con control.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="frontkick">
+          <div class="move-card__badge">Patada</div>
+          <div class="move-card__icon">🦵</div>
+          <h3 class="move-card__name">Front Kick</h3>
+          <p class="move-card__desc">Patada frontal. Se eleva la rodilla y se extiende la pierna hacia adelante.</p>
+          <div class="move-card__tip">💡 Hazlo controlado, no necesitas patear como protagonista de película ochentera.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="roundhouse">
+          <div class="move-card__badge">Patada</div>
+          <div class="move-card__icon">🌀</div>
+          <h3 class="move-card__name">Roundhouse Kick</h3>
+          <p class="move-card__desc">Patada circular. La pierna gira hacia el costado del objetivo.</p>
+          <div class="move-card__tip">💡 Primero controla el equilibrio, luego piensa en velocidad.</div>
+        </article>
+
+        <article class="move-card reveal" data-move="knee">
+          <div class="move-card__badge">Golpe</div>
+          <div class="move-card__icon">🦿</div>
+          <h3 class="move-card__name">Knee Strike</h3>
+          <p class="move-card__desc">Golpe con rodilla hacia adelante o hacia arriba.</p>
+          <div class="move-card__tip">💡 Activa el abdomen y mantén la postura.</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       COMBINACIONES
+  ══════════════════════════════════════════ -->
+  <section class="section section--tinted" id="combinaciones">
+    <div class="container">
+      <div class="section__label">04</div>
+      <h2 class="section__title">Combinaciones rápidas</h2>
+      <p class="section__desc">Haz cada movimiento con control, vuelve siempre a la guardia y respira durante la secuencia.</p>
+      <div class="combos__grid">
+
+        <div class="combo-card reveal">
+          <div class="combo-card__sequence">
+            <span class="combo-chip">Jab</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Cross</span>
+          </div>
+          <p>El dúo clásico. El más básico y el más útil.</p>
+        </div>
+
+        <div class="combo-card reveal">
+          <div class="combo-card__sequence">
+            <span class="combo-chip">Jab</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Cross</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Hook</span>
+          </div>
+          <p>El trío que se siente bien cuando lo conectas limpio.</p>
+        </div>
+
+        <div class="combo-card reveal">
+          <div class="combo-card__sequence">
+            <span class="combo-chip">Cross</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Hook</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Uppercut</span>
+          </div>
+          <p>Tres golpes distintos, tres ángulos diferentes. Coordinación pura.</p>
+        </div>
+
+        <div class="combo-card reveal">
+          <div class="combo-card__sequence">
+            <span class="combo-chip">Front Kick</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Guardia</span>
+          </div>
+          <p>Patea y vuelve a base. El equilibrio es el protagonista aquí.</p>
+        </div>
+
+        <div class="combo-card reveal">
+          <div class="combo-card__sequence">
+            <span class="combo-chip">Jab</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Cross</span>
+            <span class="combo-arrow">→</span>
+            <span class="combo-chip">Roundhouse</span>
+          </div>
+          <p>Boxeo + patada. El combo que hace sentir que algo fue bien en la vida.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ANTES DE LA CLASE
+  ══════════════════════════════════════════ -->
+  <section class="section" id="antes">
+    <div class="container">
+      <div class="section__label">05</div>
+      <h2 class="section__title">Antes de la clase</h2>
+      <div class="checklist-grid">
+        <div class="checklist-col">
+          <h3 class="checklist-col__title">✅ Lista de preparación</h3>
+          <ul class="checklist">
+            <li>Ten agua cerca</li>
+            <li>Usa ropa cómoda</li>
+            <li>Deja espacio libre alrededor</li>
+            <li>Activa cámara si la dinámica lo permite</li>
+            <li>Calienta con suavidad</li>
+            <li>No fuerces golpes ni patadas</li>
+            <li>Ajusta la intensidad a tu nivel</li>
+          </ul>
+        </div>
+        <div class="checklist-col">
+          <h3 class="checklist-col__title">⚡ Durante la clase</h3>
+          <ul class="checklist">
+            <li>Escucha los comandos del profe</li>
+            <li>Vuelve siempre a guardia</li>
+            <li>Respira (en serio, respira)</li>
+            <li>Prioriza técnica antes que velocidad</li>
+            <li>Si te pierdes, retoma desde la guardia</li>
+            <li>No pasa nada si confundes Hook con Uppercut</li>
+            <li>La humanidad ha sobrevivido cosas peores 😅</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       GLOSARIO
+  ══════════════════════════════════════════ -->
+  <section class="section section--tinted" id="glosario">
+    <div class="container">
+      <div class="section__label">06</div>
+      <h2 class="section__title">Mini glosario</h2>
+      <p class="section__desc">Los términos que vas a escuchar más en clase, explicados sin rodeos.</p>
+      <div class="glossary__grid">
+        <div class="gloss-item reveal"><span class="gloss-item__word">Guardia</span><span class="gloss-item__def">Posición base defensiva. El punto de partida de todo.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Combo</span><span class="gloss-item__def">Secuencia de movimientos encadenados. Un golpe lleva al siguiente.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Round</span><span class="gloss-item__def">Periodo de tiempo activo durante el entrenamiento.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Jab</span><span class="gloss-item__def">Golpe recto rápido con la mano delantera.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Cross</span><span class="gloss-item__def">Golpe recto potente con la mano trasera.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Hook</span><span class="gloss-item__def">Gancho circular hacia el costado.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Uppercut</span><span class="gloss-item__def">Golpe ascendente de abajo hacia arriba.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Footwork</span><span class="gloss-item__def">Trabajo de pies. Cómo te desplazas y posicionas.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Core</span><span class="gloss-item__def">Zona central del cuerpo: abdomen, lumbares, estabilizadores.</span></div>
+        <div class="gloss-item reveal"><span class="gloss-item__word">Cool down</span><span class="gloss-item__def">Cierre de la sesión con ejercicios de relajación y estiramiento.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CIERRE
+  ══════════════════════════════════════════ -->
+  <section class="closing">
+    <div class="closing__bg-shapes" aria-hidden="true">
+      <div class="shape shape--c1"></div>
+      <div class="shape shape--c2"></div>
+    </div>
+    <div class="container closing__inner">
+      <img src="assets/logo.png" alt="Musicala" class="closing__logo" />
+      <h2 class="closing__title">El movimiento también es<br />una forma de expresión</h2>
+      <p class="closing__text">En Musicala creemos que esta clase no se trata de competir, sino de activar el cuerpo, liberar tensión y conectar con tu energía de una manera segura, divertida y consciente.</p>
+      <div class="closing__cta">Listo. Ahora sí, a moverse. 🥊</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <p>Musicala · Escuela de Artes · Bogotá, Colombia</p>
+    <p class="footer__small">Clases de bienestar y movimiento para empresas</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Volver arriba">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
